@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDF4BC2627E2BC2400B3F9FC /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4BC2527E2BC2400B3F9FC /* HomePage.swift */; };
+		BDF4BC2827E2BFDE00B3F9FC /* LiDAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4BC2727E2BFDE00B3F9FC /* LiDAR.swift */; };
 		F70AFFC927D5B47700663741 /* WhatARCanDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AFFC827D5B47700663741 /* WhatARCanDoApp.swift */; };
 		F70AFFCB27D5B47700663741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70AFFCA27D5B47700663741 /* ContentView.swift */; };
 		F70AFFCD27D5B47900663741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70AFFCC27D5B47900663741 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDF4BC2527E2BC2400B3F9FC /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BDF4BC2727E2BFDE00B3F9FC /* LiDAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDAR.swift; sourceTree = "<group>"; };
 		F70AFFC527D5B47700663741 /* WhatARCanDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatARCanDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70AFFC827D5B47700663741 /* WhatARCanDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatARCanDoApp.swift; sourceTree = "<group>"; };
 		F70AFFCA27D5B47700663741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				F70AFFC827D5B47700663741 /* WhatARCanDoApp.swift */,
+				BDF4BC2527E2BC2400B3F9FC /* HomePage.swift */,
 				F70AFFCA27D5B47700663741 /* ContentView.swift */,
+				BDF4BC2727E2BFDE00B3F9FC /* LiDAR.swift */,
 				F70AFFCC27D5B47900663741 /* Assets.xcassets */,
 				F70AFFCE27D5B47900663741 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70AFFCB27D5B47700663741 /* ContentView.swift in Sources */,
+				BDF4BC2627E2BC2400B3F9FC /* HomePage.swift in Sources */,
+				BDF4BC2827E2BFDE00B3F9FC /* LiDAR.swift in Sources */,
 				F70AFFC927D5B47700663741 /* WhatARCanDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
